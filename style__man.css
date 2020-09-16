@@ -1,0 +1,165 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;
+    line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+body{
+    font-family: 'Anton', sans-serif;
+}
+.blockHeader{
+    background: url("img/header-bg.jpg") no-repeat center top / cover;
+    color: #FFFFFF;
+    padding-top: 55px;
+    padding-bottom: 325px;
+}
+.container{
+    width: 1169px;
+    margin: 0 auto ;
+}
+
+a{
+    color: #FFFFFF;
+}
+.headerBoxLink{
+    display: flex;
+    align-items: center;
+
+}
+.headerMenu{
+    display: flex;
+
+}
+.headerMenu li{
+    margin-right: 40px;
+}
+.headerMenu li a:hover {
+    text-decoration: underline;
+}
+
+.headerMenu li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.headerBoxContact{
+    font-size: 17px;
+    margin-left: auto;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+.headerLogo{
+    margin-right: 70px;
+}
+/************************************/
+.title{
+    margin-top: 215px;
+    text-transform: uppercase;
+
+}
+.titleTop{
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.titleBlock{
+    display: inline-block;
+    margin-top: -20px;
+    font-size: 100px;
+    line-height: 147px;
+}
+.blockHeaderButton{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #FFFFFF;
+    padding-left: 18px ;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+.blockHeaderButton:hover{
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    padding-left: 14px ;
+    line-height: 42px;
+    box-shadow: 0 0 5px #FFFFFF;
+    transition: all 0.5s ease;
+}
+/**************************************/
+.about{
+    padding-top: 113px;
+}
+.aboutTitle{
+    display: inline-block;
+    font-size: 50px;
+    line-height: 73px;
+    text-transform: uppercase;
+    padding-bottom: 36px ;
+}
+
+.aboutBlock{
+    display: flex;
+}
+
+.aboutBlockTitle{
+    /*display: inline-block;*/
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+}
+.aboutBlockLeft{
+    width: 50%;
+    margin-right: 30px;
+
+}
+.aboutBlockRight{
+    width: 50%;
+}
+.aboutText{
+    margin-top: 20px;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.aboutBlockImg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 107px;
+}
+.aboutImg{
+    transition: all 0.5s ease;
+}
+.aboutImg:hover{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+
+/***************************************/
+.footer{
+    font-family: 'Open Sans', serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 50px 0;
+}
+
+.footer span{
+    margin-right: 55px;
+    /*border: 1px solid crimson;*/
+}
